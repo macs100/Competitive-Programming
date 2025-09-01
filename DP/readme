@@ -1,0 +1,24 @@
+Dynamic Programming (DP) is a technique for solving complex problems by breaking them down into simpler subproblems. 
+Its core principle is to solve each subproblem only once and store its result for future reference, 
+thus avoiding repetitive calculations.
+
+Required Properties
+A problem can be solved with DP if it has:
+
+Optimal Substructure: An optimal solution to the overall problem can be constructed from the optimal solutions of its subproblems.
+
+Overlapping Subproblems: The algorithm needs to solve the same subproblems over and over again.
+
+Implementation Methods
+Top-Down (Memoization): Uses recursion. It solves the main problem and stores the results of subproblems as they are computed.
+
+Bottom-Up (Tabulation): Uses iteration. It solves the smallest subproblems first and uses their results to build up solutions to larger problems, typically by filling a table.
+
+In essence, DP optimizes algorithms, usually reducing exponential time complexities to polynomial ones.
+
+
+
+
+
+
+
